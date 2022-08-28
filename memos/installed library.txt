@@ -1,0 +1,7 @@
+npm install [or: yarn add] axios --save
+npm install [or: yarn add] @react-navigation/stack --save
+npm install [or: yarn add] @react-navigation/bottom-tabs --save
+npm install [or: yarn add] @react-navigation/native --save
+npm install [or: yarn add] react-native-vector-icons --save
+npm install [or: yarn add] react-native-responsive-dimensions --save
+npm prune

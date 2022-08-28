@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Tour",
+    "slug": "Tour",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./images/app/appicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./images/app/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.app.tour",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./images/app/appicon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.app.tour",
+      "versionCode": 1,
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE", "UPDATE_DEVICE_STATS"]
+    },
+    "web": {
+      "favicon": "./images/app/appicon.png",
+      "config": {
+      }
+    }
+  }
+}
