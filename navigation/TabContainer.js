@@ -23,20 +23,20 @@ function TabContainer() {
         screenOptions={
           ({ route }) => ({
           tabBarIcon: ({ focused, }) => {
-            let imgName;
+            let imgSource;
             let rn = route.name;
 
             if (rn === resMenu) {
-              imgName = focused ? require('../images/menuicons/res_focus.png') : require('../images/menuicons/res.png');
+              imgSource = focused ? require('../images/menuicons/res_focus.png') : require('../images/menuicons/res.png');
             }
             else if (rn === contentsMenu) {
-              imgName = focused ? require('../images/menuicons/contents_focus.png') : require('../images/menuicons/contents.png');
+              imgSource = focused ? require('../images/menuicons/contents_focus.png') : require('../images/menuicons/contents.png');
             }
             else if (rn === profileMenu) {
-              imgName = focused ? require('../images/menuicons/profile_focus.png') : require('../images/menuicons/profile.png');
+              imgSource = focused ? require('../images/menuicons/profile_focus.png') : require('../images/menuicons/profile.png');
             }
             
-            return <Image source={imgName}/>;
+            return <Image source={imgSource}/>;
           },
         })}
 
